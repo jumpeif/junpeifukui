@@ -1,0 +1,234 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0em;
+  font-family: 'Lato', 'Noto Sans JP', 'Ã£Æ’â€™Ã£Æ’Â©Ã£â€šÂ®Ã£Æ’Å½Ã¨Â§â€™Ã£â€šÂ´ ProN', 'Hiragino Kaku Gothic ProN', 'Ã£Æ’Â¡Ã£â€šÂ¤Ã£Æ’ÂªÃ£â€šÂª', Meiryo, 'Ã¯Â¼Â­Ã¯Â¼Â³ Ã¯Â¼Â°Ã£â€šÂ´Ã£â€šÂ·Ã£Æ’Æ’Ã£â€šÂ¯', 'MS PGothic', sans-serif;
+}
+body {
+    display: none;
+}
+a  {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#fadein{
+    display: none;
+}
+
+.header-right{
+    float: right;
+    padding: 50px 70px 0 0;
+}
+
+.fa-bars{
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.container {
+    width: 1170PX;
+    margin: 0 auto;
+}
+
+.main-wrapper{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#sign {
+    background-size: cover;
+    width: 800px;
+}
+#name {
+    position: relative;
+    top: -100px;
+    font-size: 18px;
+    letter-spacing: 10px;
+}
+.menu-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+}
+
+.modal{
+    background-color: black;
+    height: 100px;
+}
+.slide-menu{
+    margin: 0 auto;
+}
+.slide-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0em;
+    margin: 0em;
+}
+.menu-list{
+    line-height: 100px;
+    margin-left: 50px;
+}
+.menu-list a {
+    color: white;
+}
+
+.fa-times{
+    color: white;
+    position: absolute;
+    top: 12px;
+    right: 24px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.top-about-wrapper{
+    background-image: url(photo4.png);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+ }
+
+ .about-container{
+     padding-top: 100px; 
+    }
+
+ .about-wrapper{
+     text-align: center;
+     background-color: rgba(255, 255, 255, 0.4);
+     width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+ }
+
+
+ .about-wrapper p {
+     font-size: 22px;
+ }
+
+ #aboutme {
+     font-size: 16px;
+     padding-top: 30px;
+     line-height: 60px;
+     font-weight: lighter;
+ }
+
+ .contents-top-wrapper{
+     padding-top: 150px;
+     
+ }
+
+ .contents-wrapper{
+     display: flex;
+
+ }
+.works-wrapper{
+    width: 60%;
+}
+
+#works{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.bio{
+    padding-left: 20px;
+}
+
+.bio h3{
+    font-size: 20px;
+}
+
+.works-list{
+    padding: 30px 0 0 20px;
+}
+
+.works-list li{
+    font-size: 16px;
+    margin-bottom: 30px;
+    
+}
+
+.works-list p {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ .youtube{
+     width: 40%;
+ }
+
+ #youtube-logo{
+     width: 140px;
+     margin-bottom: 24px;
+ }
+
+ .youtube-contents{
+     width: 100%;
+     margin-bottom: 20px;
+ }
+
+ .contact-wrapper{
+    padding-top: 150px;
+ }
+ 
+ .contact-wrapper p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+ }
+
+.contact-wrapper a {
+    display: inline-block;
+    color: black;
+}
+
+ .mail-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#mail{
+    margin-right: auto;
+    padding-left: 250px;
+    font-size: 18px;
+}
+
+#production{
+    padding-right: 250px;
+
+}
+
+ .sns-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 100px;
+ }
+
+
+ .icon{
+     margin: auto;
+     font-size: 40px;
+ }
+ 
