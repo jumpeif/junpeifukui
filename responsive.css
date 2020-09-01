@@ -1,0 +1,178 @@
+@media(max-width: 670px){
+    .top-about-wrapper{
+        display: none;
+    }
+
+    .about-mobile {
+        display: block;
+        background-image: url(photo5.png);
+    }
+
+    .header-right{
+        position: fixed;
+        left:90%;
+            
+    }
+        
+    .container {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #sign {
+        width: 100%;
+    }
+
+    #name {
+        position: relative;
+        top: -64px;
+        left: -5px;
+        font-size: 14px;
+        letter-spacing: 5px;
+        }
+
+        .menu-list{
+            line-height: 100px;
+            margin-left: 20px;
+        }
+        .fa-times{
+            color: white;
+            position: absolute;
+            top: 12px;
+            right: 24px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .about-container{
+            padding-top: 100px; 
+            margin: 0 10px 0 10px;
+           }
+       
+
+        .about-wrapper{
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.4);
+            width: 100%;
+            border-radius: 5px;
+        }
+       
+        #aboutme{
+            font-size: 12px;
+            padding: 30px 15px 15px 15px;
+            line-height: 40px;
+            font-weight: lighter;
+        }
+        .contents-top-wrapper{
+            padding: 150px 0 0 0 ;
+            text-align: center;
+
+        }
+        .contents-wrapper{
+            display: block;
+            width: 100%;
+       
+        }
+       .works-wrapper{
+           width: 100%;
+       }
+       
+       #works{
+           font-size: 22px;
+           margin-bottom: 20px;
+       }
+       
+       .bio{
+        padding-left: 0;
+
+       }
+       
+       .bio h3{
+           font-size: 16px;
+       }
+       
+       .works-list{
+           padding: 30px 20px 10px 20px;
+       }
+       
+       .works-list li{
+           font-size: 14px;
+           margin-bottom: 30px;
+           
+       }
+       
+       .works-list p {
+           font-size: 12px;
+           margin-top: 10px;
+           padding-left: 20px;
+       }
+       
+        .youtube{
+            width: 100%;
+        }
+
+        .youtube-wrapper {
+            padding: 20px 10px;
+        }
+       
+        #youtube-logo{
+            width: 140px;
+            margin-bottom: 60px;
+        }
+       
+        .youtube-contents{
+            width: 80%;
+            margin-bottom: 30px;
+        }
+
+        .contact-wrapper{
+            padding-top: 100px;
+         }
+         
+         .contact-wrapper p {
+            font-size: 20px;
+            margin-bottom: 30px;
+         }
+        
+        .contact-wrapper a {
+            display: inline-block;
+            color: black;
+        }
+        
+         .mail-wrapper{
+            display: flex;
+            flex-direction: column;
+            padding-top: 100px;
+        }
+        
+        #mail{
+            margin-right: 0;
+            padding-left: 0;
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+        
+        #production{
+            padding-right: 0px;
+            width: 60%;
+            margin-bottom: 40px;
+
+        }
+        
+         .sns-wrapper{
+            display: flex;
+            flex-direction: column;
+            margin-top: 0;
+            padding-top: 10px;
+         }
+        
+        
+         .icon{
+             margin-bottom: 30px;
+             font-size: 30px;
+         }
+                  
+
+
+         
+        }
